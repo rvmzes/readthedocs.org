@@ -162,9 +162,9 @@ class CommunityBaseSettings(Settings):
 
     # Assets and media
     STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
-    STATIC_URL = '/static/'
+    STATIC_URL = '/docs/static/'
     MEDIA_ROOT = os.path.join(SITE_ROOT, 'media/')
-    MEDIA_URL = '/media/'
+    MEDIA_URL = '/docs/media/'
     ADMIN_MEDIA_PREFIX = '/media/admin/'
     STATICFILES_DIRS = [
         os.path.join(SITE_ROOT, 'readthedocs', 'static'),
